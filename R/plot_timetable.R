@@ -21,7 +21,7 @@
 #'
 #' plot_timetable(timetable = 'overview/timetable.csv') +
 #'   theme_void()
-plot_timetable <- function(timetable, caption = "Peng Zhao's timetable drawn with the R langauge."){
+plot_timetable <- function(timetable, caption = "Peng Zhao's timetable drawn with the R language."){
   if (is.character(timetable)){
     dtf <- read.csv(timetable)
   } else {
@@ -74,3 +74,4 @@ plot_timetable <- function(timetable, caption = "Peng Zhao's timetable drawn wit
           # legend.position = 'none',
           plot.margin=unit(c(4,4,4,4), 'cm'))
 }
+
